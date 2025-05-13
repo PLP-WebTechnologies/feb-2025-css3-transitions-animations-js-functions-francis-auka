@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    transition: background-color 0.5s ease;
+  }
+  
+  body.light {
+    background-color: white;
+    color: black;
+  }
+  
+  body.dark {
+    background-color: #121212;
+    color: white;
+  }
+  
+  #animatedBox {
+    width: 100px;
+    height: 100px;
+    background: coral;
+    margin-top: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #animatedBox.animate {
+    transform: rotate(360deg) scale(1.5);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: teal;
+    color: white;
+  }
+  
